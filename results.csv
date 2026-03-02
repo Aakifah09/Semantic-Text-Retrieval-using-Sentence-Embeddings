@@ -1,0 +1,209 @@
+==========================================================================================
+QUERY 1: "I want something to listen to music wirelessly"
+==========================================================================================
+
+  >> GloVe:
+    #1 (sim=0.8670) The portable hammock stand lets you set up anywhere without trees.
+    #2 (sim=0.8558) Smart plug lets you control any appliance from your phone.
+    #3 (sim=0.8380) Programmable slow cooker prepares meals while you are at work.
+    #4 (sim=0.8070) Speed reading techniques can double your reading pace in 30 days.
+    #5 (sim=0.8038) The pancake mix is whole wheat and just needs water to prepare.
+
+  >> Word2Vec:
+    #1 (sim=0.9993) The wireless router provides Wi-Fi 6 speeds up to 3000 Mbps.
+    #2 (sim=0.9992) The projector displays 1080p content on screens up to 120 inches.
+    #3 (sim=0.9992) The graphic novel introduces philosophy concepts to young readers.
+    #4 (sim=0.9991) The gaming mouse has adjustable DPI up to 16000 and programmable buttons.
+    #5 (sim=0.9990) Audiobook subscription gives access to thousands of titles monthly.
+
+  >> SBERT:
+    #1 (sim=0.4394) Wireless earbuds with active noise cancellation and water resistance rating
+    #2 (sim=0.4036) Smart home speaker with voice assistant and multi-room audio support.
+    #3 (sim=0.3804) This wireless Bluetooth headphone offers noise cancellation and 30-hour bat
+    #4 (sim=0.3327) Compact Bluetooth speaker with 12-hour battery and waterproof design.
+    #5 (sim=0.3263) Audiobook subscription gives access to thousands of titles monthly.
+
+==========================================================================================
+QUERY 2: "What food is healthy and high in protein"
+==========================================================================================
+
+  >> GloVe:
+    #1 (sim=0.9294) Greek yogurt is high in protein and great with fresh berries.
+    #2 (sim=0.9118) The pancake mix is whole wheat and just needs water to prepare.
+    #3 (sim=0.9022) This cotton t-shirt is soft, breathable, and available in multiple colors.
+    #4 (sim=0.9006) The hammock is lightweight and packs down to the size of a water bottle.
+    #5 (sim=0.8897) Quick-dry travel towel is compact and absorbs three times its weight.
+
+  >> Word2Vec:
+    #1 (sim=0.9998) Greek yogurt is high in protein and great with fresh berries.
+    #2 (sim=0.9996) This organic pasta sauce is made with ripe tomatoes and fresh basil.
+    #3 (sim=0.9995) This cotton t-shirt is soft, breathable, and available in multiple colors.
+    #4 (sim=0.9995) Quick-dry travel towel is compact and absorbs three times its weight.
+    #5 (sim=0.9995) Almond butter is smooth, creamy, and made from dry-roasted almonds.
+
+  >> SBERT:
+    #1 (sim=0.6161) Greek yogurt is high in protein and great with fresh berries.
+    #2 (sim=0.4787) Gluten-free protein bars with 20g protein and natural ingredients.
+    #3 (sim=0.4746) Quinoa is a high-protein grain perfect for salads and bowls.
+    #4 (sim=0.4659) The protein powder is plant-based with vanilla flavor and 25g protein.
+    #5 (sim=0.3084) Dried mango slices with no added sugar make a healthy snack.
+
+==========================================================================================
+QUERY 3: "I need warm clothing for cold winter weather"
+==========================================================================================
+
+  >> GloVe:
+    #1 (sim=0.9168) Waterproof winter boots with insulated lining for cold weather protection.
+    #2 (sim=0.8963) Thermal underwear set keeps you warm in sub-zero temperatures.
+    #3 (sim=0.8803) The cooler bag keeps drinks cold for 24 hours with foam insulation.
+    #4 (sim=0.8789) The waterproof dry bag keeps electronics safe during water activities.
+    #5 (sim=0.8656) The pancake mix is whole wheat and just needs water to prepare.
+
+  >> Word2Vec:
+    #1 (sim=0.9993) The cooler bag keeps drinks cold for 24 hours with foam insulation.
+    #2 (sim=0.9992) Waterproof winter boots with insulated lining for cold weather protection.
+    #3 (sim=0.9984) Insulated gloves with touchscreen-compatible fingertips for winter use.
+    #4 (sim=0.9982) Stainless steel water bottle keeps drinks cold for 24 hours.
+    #5 (sim=0.9981) The sleeping bag is rated for temperatures down to minus 10 celsius.
+
+  >> SBERT:
+    #1 (sim=0.5248) The wool sweater provides warmth without bulk in a stylish pattern.
+    #2 (sim=0.5193) Waterproof winter boots with insulated lining for cold weather protection.
+    #3 (sim=0.4813) The linen shirt is ideal for summer with a relaxed breathable fit.
+    #4 (sim=0.4623) Thermal underwear set keeps you warm in sub-zero temperatures.
+    #5 (sim=0.4058) The cashmere scarf is luxuriously soft and perfect for winter layering.
+
+==========================================================================================
+QUERY 4: "How can I save money and track my spending"
+==========================================================================================
+
+  >> GloVe:
+    #1 (sim=0.9047) Speed reading techniques can double your reading pace in 30 days.
+    #2 (sim=0.9005) The portable hammock stand lets you set up anywhere without trees.
+    #3 (sim=0.8901) Steel-toe work boots provide safety and all-day comfort on the job.
+    #4 (sim=0.8812) The pancake mix is whole wheat and just needs water to prepare.
+    #5 (sim=0.8801) Programmable slow cooker prepares meals while you are at work.
+
+  >> Word2Vec:
+    #1 (sim=0.9995) The robot mop scrubs and sanitizes hard floors automatically.
+    #2 (sim=0.9994) The weight scale measures body fat percentage and muscle mass.
+    #3 (sim=0.9993) Stock market analysis tool provides real-time data and price alerts.
+    #4 (sim=0.9993) The budgeting app tracks expenses and categorizes spending automatically.
+    #5 (sim=0.9993) The maxi skirt flows elegantly and pairs well with casual tops.
+
+  >> SBERT:
+    #1 (sim=0.5936) The budgeting app tracks expenses and categorizes spending automatically.
+    #2 (sim=0.4434) The accounting software automates invoicing and expense tracking.
+    #3 (sim=0.3704) The expense report app captures receipts with phone camera scanning.
+    #4 (sim=0.3629) Financial advisor service provides personalized investment recommendations.
+    #5 (sim=0.3596) Retirement planning calculator estimates needed savings for your goals.
+
+==========================================================================================
+QUERY 5: "What helps with back pain and muscle soreness"
+==========================================================================================
+
+  >> GloVe:
+    #1 (sim=0.9063) The massage gun provides deep tissue relief for sore muscles.
+    #2 (sim=0.8978) The acupressure mat stimulates pressure points to relieve back pain.
+    #3 (sim=0.8847) Magnesium supplement helps with muscle cramps and sleep quality.
+    #4 (sim=0.8637) The foam roller relieves muscle tension and improves flexibility.
+    #5 (sim=0.8424) The meditation app offers guided sessions for stress and anxiety relief.
+
+  >> Word2Vec:
+    #1 (sim=0.9995) The weight scale measures body fat percentage and muscle mass.
+    #2 (sim=0.9994) The foam roller relieves muscle tension and improves flexibility.
+    #3 (sim=0.9993) The maxi skirt flows elegantly and pairs well with casual tops.
+    #4 (sim=0.9993) Magnesium supplement helps with muscle cramps and sleep quality.
+    #5 (sim=0.9993) Noise-cancelling over-ear headphones with premium sound quality.
+
+  >> SBERT:
+    #1 (sim=0.5697) The massage gun provides deep tissue relief for sore muscles.
+    #2 (sim=0.5396) The acupressure mat stimulates pressure points to relieve back pain.
+    #3 (sim=0.5151) Magnesium supplement helps with muscle cramps and sleep quality.
+    #4 (sim=0.4363) The TENS unit provides drug-free pain relief for chronic conditions.
+    #5 (sim=0.4249) The foam roller relieves muscle tension and improves flexibility.
+
+==========================================================================================
+SECTION 7: EVALUATION - MANUAL RELEVANCE CHECK ON 20 QUERIES
+==========================================================================================
+Query                                    Method       P@1   P@3   P@5
+---------------------------------------------------------------------------
+wireless headphones with good battery    GloVe       1.00  0.67  0.60
+wireless headphones with good battery    Word2Vec    0.00  0.33  0.40
+wireless headphones with good battery    SBERT       1.00  1.00  0.80
+
+healthy protein snack                    GloVe       1.00  0.67  0.60
+healthy protein snack                    Word2Vec    1.00  1.00  0.80
+healthy protein snack                    SBERT       1.00  1.00  1.00
+
+warm jacket for winter                   GloVe       1.00  0.67  0.80
+warm jacket for winter                   Word2Vec    1.00  0.67  0.60
+warm jacket for winter                   SBERT       1.00  1.00  1.00
+
+budget tracking application              GloVe       1.00  0.67  0.40
+budget tracking application              Word2Vec    1.00  0.33  0.20
+budget tracking application              SBERT       1.00  1.00  1.00
+
+muscle pain relief                       GloVe       1.00  1.00  1.00
+muscle pain relief                       Word2Vec    1.00  1.00  1.00
+muscle pain relief                       SBERT       1.00  1.00  0.80
+
+learn programming online                 GloVe       1.00  0.33  0.40
+learn programming online                 Word2Vec    1.00  1.00  0.60
+learn programming online                 SBERT       1.00  0.67  0.60
+
+portable camping equipment               GloVe       1.00  0.67  0.80
+portable camping equipment               Word2Vec    1.00  1.00  0.60
+portable camping equipment               SBERT       1.00  1.00  0.80
+
+kitchen cooking appliance                GloVe       1.00  0.33  0.20
+kitchen cooking appliance                Word2Vec    0.00  0.00  0.20
+kitchen cooking appliance                SBERT       1.00  0.67  0.60
+
+smartphone with large display            GloVe       1.00  1.00  0.60
+smartphone with large display            Word2Vec    1.00  0.33  0.20
+smartphone with large display            SBERT       1.00  1.00  0.80
+
+organic natural food products            GloVe       1.00  0.67  0.60
+organic natural food products            Word2Vec    0.00  0.67  0.80
+organic natural food products            SBERT       1.00  0.67  0.40
+
+fitness exercise equipment at home       GloVe       1.00  0.33  0.40
+fitness exercise equipment at home       Word2Vec    0.00  0.00  0.20
+fitness exercise equipment at home       SBERT       1.00  1.00  0.80
+
+waterproof outdoor gear                  GloVe       0.00  0.33  0.60
+waterproof outdoor gear                  Word2Vec    1.00  1.00  0.80
+waterproof outdoor gear                  SBERT       1.00  1.00  1.00
+
+children education toys                  GloVe       1.00  0.67  0.40
+children education toys                  Word2Vec    0.00  0.00  0.00
+children education toys                  SBERT       1.00  0.67  0.40
+
+coffee brewing machine                   GloVe       1.00  0.67  0.40
+coffee brewing machine                   Word2Vec    1.00  0.33  0.40
+coffee brewing machine                   SBERT       1.00  0.67  0.40
+
+sleep improvement supplement             GloVe       1.00  0.67  0.40
+sleep improvement supplement             Word2Vec    1.00  0.67  0.40
+sleep improvement supplement             SBERT       1.00  0.67  0.40
+
+travel luggage and bags                  GloVe       1.00  1.00  0.80
+travel luggage and bags                  Word2Vec    1.00  0.33  0.20
+travel luggage and bags                  SBERT       1.00  1.00  0.80
+
+garden plant care tools                  GloVe       1.00  0.67  0.60
+garden plant care tools                  Word2Vec    1.00  1.00  1.00
+garden plant care tools                  SBERT       1.00  1.00  1.00
+
+fast data storage device                 GloVe       1.00  0.67  0.40
+fast data storage device                 Word2Vec    1.00  0.67  0.60
+fast data storage device                 SBERT       1.00  0.67  0.60
+
+vitamin supplement for immunity          GloVe       1.00  1.00  1.00
+vitamin supplement for immunity          Word2Vec    0.00  0.00  0.20
+vitamin supplement for immunity          SBERT       1.00  1.00  0.80
+
+running athletic footwear                GloVe       1.00  0.67  0.40
+running athletic footwear                Word2Vec    1.00  1.00  0.80
+running athletic footwear                SBERT       1.00  1.00  0.60
