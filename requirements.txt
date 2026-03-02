@@ -1,5 +1,49 @@
-sentence-transformers==2.7.0
-scikit-learn==1.4.2
-numpy==1.26.4
-pandas==2.2.2
-torch>=2.0.0
+1. Software Requirements
+
+This project is implemented in Python 3.8+ and depends on several Python libraries for semantic text retrieval:
+
+sentence-transformers (v2.2.2): Generates dense vector embeddings for sentences to capture semantic meaning.
+
+scikit-learn (v1.2.2): Provides tools for computing cosine similarity between embeddings.
+
+NumPy (v1.25.0): Handles numerical operations and vector computations efficiently.
+
+Pandas (v2.1.0): Manages datasets in tabular format for easy loading, processing, and manipulation.
+
+A Python virtual environment (venv or conda) is recommended to manage dependencies and maintain reproducibility.
+
+2. Hardware Requirements
+
+Processor: Any modern CPU (e.g., Intel i5 or equivalent).
+
+Memory: Minimum 8 GB RAM for medium-sized datasets.
+
+GPU (optional): Useful for faster embedding generation with large datasets, but not mandatory.
+
+3. Dataset / Input Requirements
+
+A dataset consisting of sentences or short text entries, stored in CSV, TXT, or list format.
+
+A query input (string) provided by the user to perform semantic search.
+
+Each sentence will be converted into embeddings and compared using cosine similarity to retrieve the most semantically similar entries.
+
+4. Model Requirements
+
+Pretrained Sentence Embedding Model: all-MiniLM-L6-v2 from the sentence-transformers library.
+
+Generates 384-dimensional embeddings for each sentence.
+
+Requires an internet connection on the first run to download the model; subsequent runs use the cached model.
+
+5. Algorithms / Similarity Metrics
+
+Cosine Similarity: Used to compare the query embedding against dataset embeddings to find the closest matches.
+
+Ensures retrieval of semantically relevant sentences rather than simple keyword matches.
+
+6. Optional Tools
+
+Jupyter Notebook: For interactive testing, visualization, and experimentation.
+
+Vector search libraries (FAISS, optional): Can be used to scale semantic search to very large datasets efficiently.
